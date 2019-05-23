@@ -1,0 +1,35 @@
+{
+  "name": "hapi-hateoas",
+  "version": "0.0.1",
+  "description": "Hapi.js plugin provides APIs to ease creating REST representations that follow the HATEOAS principle",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/igorgolovanov/hapi-hateoas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorgolovanov/hapi-hateoas/issues"
+  },
+  "homepage": "https://github.com/igorgolovanov/hapi-hateoas#readme",
+  "keywords": [
+    "hapi",
+    "hateoas",
+    "plugin"
+  ],
+  "author": {
+    "name": "Igor Golovanov",
+    "email": "igor.golovanov@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.x.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@hapi/code": "5.x.x",
+    "@hapi/lab": "18.x.x"
+  },
+  "scripts": {
+    "test": "lab -La @hapi/code -t 100"
+  }
+}
